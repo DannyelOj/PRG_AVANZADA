@@ -4,15 +4,15 @@
  */
 package Logica;
 
-import Clases.Cliente;
+import Clases.CCliente;
 import java.util.regex.Pattern;
 
 /**
- * @author UTPL
- * Clase para manejar la logica de Cliente
+ *
+ * @author SALAI
  */
 public class LCliente {
-    public static boolean validaCedula(Cliente obj){
+    public static boolean validaCedula(CCliente obj){
         //Define la expresion solo para numeros y la longitud de 10
         String regex = "[0-9]{10}";
         //Compila la expresion regular en un patron
@@ -22,5 +22,7 @@ public class LCliente {
     }
     //programacion por capas
     //modelo vista controlador
-    //visivilidad de metros y atributos -> leccion 
+    //visivilidad de metros y atributos -> leccion
+
+    
 }
